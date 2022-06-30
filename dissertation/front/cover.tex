@@ -1,0 +1,94 @@
+% !Mode:: "TeX:UTF-8"
+
+\hitsetup{
+  %******************************
+  % 注意：
+  %   1. 配置里面不要出现空行
+  %   2. 不需要的配置信息可以删除
+  %******************************
+  %
+  %=====
+  % 秘级
+  %=====
+  statesecrets={公开},
+  natclassifiedindex={TM301.2},
+  intclassifiedindex={62-5},
+  %
+  %=========
+  % 中文信息
+  %=========
+  ctitleone={基于BlazePose算法的},%本科生封面使用
+  ctitletwo={机器人人体姿势识别与模仿},%本科生封面使用
+  ctitlecover={基于BlazePose算法的机器人人体姿势识别与模仿},%放在封面中使用，自由断行
+  ctitle={基于BlazePose算法的机器人人体姿势识别与模仿},%放在原创性声明中使用
+  csubtitle={一条副标题}, %一般情况没有，可以注释掉
+  cxueke={工学},
+  csubject={计算机科学与技术},
+  caffil={计算学部},
+  cauthor={陶冶},
+  csupervisor={傅忠传},
+  cassosupervisor={某某某教授}, % 副指导老师
+  ccosupervisor={某某某教授}, % 联合指导老师
+  % 日期自动使用当前时间，若需指定按如下方式修改：
+  cdate={2022年6月10日},
+  newdate={2022年6月},
+  cstudentid={1180300204},
+  cstudenttype={学术学位论文}, %非全日制教育申请学位者
+  cnumber={no9527}, %编号
+  cpositionname={哈铁西站}, %博士后站名称
+  cfinishdate={20XX年X月---20XX年X月}, %到站日期
+  csubmitdate={20XX年X月}, %出站日期
+  cstartdate={3050年9月10日}, %到站日期
+  cenddate={3090年10月10日}, %出站日期
+  %（同等学力人员）、（工程硕士）、（工商管理硕士）、
+  %（高级管理人员工商管理硕士）、（公共管理硕士）、（中职教师）、（高校教师）等
+  %
+  %
+  %=========
+  % 英文信息
+  %=========
+  etitle={Research on key technologies of partial porous externally pressurized gas bearing},
+  esubtitle={This is the sub title},
+  exueke={Engineering},
+  esubject={Computer Science and Technology},
+  eaffil={\emultiline[t]{School of Mechatronics Engineering \\ Mechatronics Engineering}},
+  eauthor={Yu Dongmei},
+  esupervisor={Professor XXX},
+  eassosupervisor={XXX},
+  % 日期自动生成，若需指定按如下方式修改：
+  edate={December, 2017},
+  estudenttype={Master of Art},
+  %
+  % 关键词用“英文逗号”分割
+  ckeywords={人体姿态估计, 机器人, 轻量化, 实时性, 模仿人体姿态},
+  ekeywords={Human Posture Estimation, robot, lightweight, Real-time, action imitation},
+}
+
+\begin{cabstract}
+人机交互的主要目的是使机器人能够学习和了解人，能领会和模仿人的语言和行为。为了是人机交互自然，必须引入类似于人与人之间的沟通方式，即依赖语音与视觉。在这种背景下，人体姿态估计在人机交互方面有着举足轻重的作用。本文就是对此提出了基于人体姿态估计的机器人姿态跟踪算法，系统地完成了足够轻量化的人体姿态估计算法，并落实到了移动端，机器人端。
+
+本文首先系统全面地介绍了国内外对于单人姿态估计算法的发展历程以及各自的优势。并且介绍了人体姿态估计所涉及领域的主要内容，包括卷积神经网络的组成、反向传播算法、激活函数以及正则化。为后续的BlazePose算法研究打下基础。其次研究并复现了BlazePose算法，对比了复现的模型与官方模型以及一些主流模型的性能差异，在得到一个可以实用的模型后，将该算法成功部署到电脑端、手机端和机器人上。最后，得出结论：从机器人模仿的准确度和实时性而言，本项目以达到了预期的效果。
+
+本文的主要贡献如下：
+
+\begin{enumerate}
+\item 摒弃了传统的NMS算法来进行目标检测的后处理步骤，而假设人脸必须出现在图像中并采用了一个全新的人脸检测器。
+
+\item 将目前最主流的基于热图的姿态估计和基于回归的姿态估计相结合。使用编码器-解码器网络架构来预测所有关节的热图。同时后面跟着另一个编码器，直接回归到所有关节的坐标。使得足够轻量化，可以架构在移动端和机器人端。
+\end{enumerate}
+\end{cabstract}
+
+
+\begin{eabstract}
+The main purpose of human-computer interaction is to enable robots to learn and understand people, to comprehend and imitate human language and behavior. In order for the human-computer interaction to be natural, a communication method similar to that between humans must be introduced, that is, relying on speech and vision. In this context, human pose estimation plays a pivotal role in human-computer interaction. This paper proposes a robot posture tracking algorithm based on human body posture estimation, and systematically completes a sufficiently lightweight human body posture estimation algorithm, and implements it on the mobile side and the robot side.
+
+This paper firstly introduces the development history of single-person pose estimation algorithms at home and abroad and their respective advantages. Then we introduced the main contents of the field of human pose estimation, including the composition of convolutional neural network, back-propagation algorithm, activation function and regularization. It lays the foundation for the follow-up BlazePose algorithm research. Secondly, the BlazePose algorithm is researched and reproduced, and the performance differences between the reproduced model and the official model and some mainstream models are compared. After obtaining a practical model, the algorithm was successfully deployed on computers, mobile phones and robots. Finally, it is concluded that this project has achieved the expected effect in terms of the accuracy and real-time performance of robot imitation.
+
+The main contributions of this paper are as follows:
+
+\begin{enumerate}
+\item The post-processing step of the traditional NMS algorithm for object detection is abandoned, and a new face detector is adopted assuming that the face must be present in the image.
+
+\item Combining the most mainstream heatmap-based pose estimation with regression-based pose estimation. Heatmaps for all joints are predicted using an encoder-decoder network architecture. At the same time, it is followed by another encoder, which directly returns to the coordinates of all joints. It is lightweight enough to be built on mobile and robotics.
+\end{enumerate}
+\end{eabstract}

@@ -1,0 +1,264 @@
+\begin{thebibliography}{37}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[杨川(2019)]{杨川2019基于深度学习的人体姿态估计技术研究}
+杨川.
+\newblock 基于深度学习的人体姿态估计技术研究[D].
+\newblock [出版地不详]: 哈尔滨工业大学, 2019.
+
+\bibitem[Cui et~al.(2021)Cui, McKee, and Lazebnik]{cui2021dressing}
+CUI~A, MCKEE~D, LAZEBNIK~S.
+\newblock Dressing in order: Recurrent person image generation for pose
+  transfer, virtual try-on and outfit editing[C]//\allowbreak
+Proceedings of the IEEE/CVF International Conference on Computer Vision.
+\newblock [S.l.: s.n.], 2021: 14638-14647.
+
+\bibitem[戴汉彬(2021)]{戴汉彬2021基于深度学习的人体姿态估计技术研究}
+戴汉彬.
+\newblock 基于深度学习的人体姿态估计技术研究[D].
+\newblock [出版地不详]: 电子科技大学, 2021.
+
+\bibitem[Zhang(2012)]{zhang2012microsoft}
+ZHANG~Z.
+\newblock Microsoft kinect sensor and its effect[J].
+\newblock IEEE multimedia, 2012, 19\allowbreak (2): 4-10.
+
+\bibitem[Felzenszwalb et~al.(2005)Felzenszwalb and
+  Huttenlocher]{felzenszwalb2005pictorial}
+FELZENSZWALB~P~F, HUTTENLOCHER~D~P.
+\newblock Pictorial structures for object recognition[J].
+\newblock International journal of computer vision, 2005, 61\allowbreak (1):
+  55-79.
+
+\bibitem[Pishchulin et~al.(2013)Pishchulin, Andriluka, Gehler, and
+  Schiele]{pishchulin2013strong}
+PISHCHULIN~L, ANDRILUKA~M, GEHLER~P, et~al.
+\newblock Strong appearance and expressive spatial models for human pose
+  estimation[C]//\allowbreak
+Proceedings of the IEEE international conference on Computer Vision.
+\newblock [S.l.: s.n.], 2013: 3487-3494.
+
+\bibitem[Tompson et~al.(2014)Tompson, Jain, LeCun, and
+  Bregler]{tompson2014joint}
+TOMPSON~J~J, JAIN~A, LECUN~Y, et~al.
+\newblock Joint training of a convolutional network and a graphical model for
+  human pose estimation[J].
+\newblock Advances in neural information processing systems, 2014, 27.
+
+\bibitem[Carreira et~al.(2016)Carreira, Agrawal, Fragkiadaki, and
+  Malik]{carreira2016human}
+CARREIRA~J, AGRAWAL~P, FRAGKIADAKI~K, et~al.
+\newblock Human pose estimation with iterative error feedback[C]//\allowbreak
+Proceedings of the IEEE conference on computer vision and pattern recognition.
+\newblock [S.l.: s.n.], 2016: 4733-4742.
+
+\bibitem[Tompson et~al.(2015)Tompson, Goroshin, Jain, LeCun, and
+  Bregler]{tompson2015efficient}
+TOMPSON~J, GOROSHIN~R, JAIN~A, et~al.
+\newblock Efficient object localization using convolutional
+  networks[C]//\allowbreak
+Proceedings of the IEEE conference on computer vision and pattern recognition.
+\newblock [S.l.: s.n.], 2015: 648-656.
+
+\bibitem[Hu et~al.(2016)Hu and Ramanan]{hu2016bottom}
+HU~P, RAMANAN~D.
+\newblock Bottom-up and top-down reasoning with hierarchical rectified
+  gaussians[C]//\allowbreak
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.
+\newblock [S.l.: s.n.], 2016: 5600-5609.
+
+\bibitem[Pishchulin et~al.()Pishchulin, Insafutdinov, Tang, Andres, Andriluka,
+  Gehler, and Schiele]{pishchulin16cvpr}
+PISHCHULIN~L, INSAFUTDINOV~E, TANG~S, et~al.
+\newblock [C]//\allowbreak
+[S.l.: s.n.].
+
+\bibitem[Lifshitz et~al.(2016)Lifshitz, Fetaya, and Ullman]{lifshitz2016human}
+LIFSHITZ~I, FETAYA~E, ULLMAN~S.
+\newblock Human pose estimation using deep consensus voting[C]//\allowbreak
+European Conference on Computer Vision.
+\newblock [S.l.]: Springer, 2016: 246-260.
+
+\bibitem[Gkioxari et~al.(2016)Gkioxari, Toshev, and Jaitly]{chain16}
+GKIOXARI~G, TOSHEV~A, JAITLY~N.
+\newblock Chained predictions using convolutional neural
+  networks[C]//\allowbreak
+arXiv preprint arXiv:1605.02346.
+\newblock [S.l.: s.n.], 2016.
+
+\bibitem[Rafi et~al.(2016)Rafi, Leibe, Gall, and Kostrikov]{rafi2016efficient}
+RAFI~U, LEIBE~B, GALL~J, et~al.
+\newblock An efficient convolutional network for human pose
+  estimation.[C]//\allowbreak
+BMVC: volume~1.
+\newblock [S.l.: s.n.], 2016: 2.
+
+\bibitem[Belagiannis et~al.(2017)Belagiannis and
+  Zisserman]{belagiannis2017recurrent}
+BELAGIANNIS~V, ZISSERMAN~A.
+\newblock Recurrent human pose estimation[C]//\allowbreak
+2017 12th IEEE International Conference on Automatic Face \& Gesture
+  Recognition (FG 2017).
+\newblock [S.l.]: IEEE, 2017: 468-475.
+
+\bibitem[Insafutdinov et~al.()Insafutdinov, Pishchulin, Andres, Andriluka, and
+  Schiele]{insafutdinov16ariv}
+INSAFUTDINOV~E, PISHCHULIN~L, ANDRES~B, et~al.
+\newblock [C]//\allowbreak
+[S.l.: s.n.].
+
+\bibitem[Wei et~al.(2016)Wei, Ramakrishna, Kanade, and
+  Sheikh]{wei2016convolutional}
+WEI~S~E, RAMAKRISHNA~V, KANADE~T, et~al.
+\newblock Convolutional pose machines[C]//\allowbreak
+Proceedings of the IEEE conference on Computer Vision and Pattern Recognition.
+\newblock [S.l.: s.n.], 2016: 4724-4732.
+
+\bibitem[Bulat et~al.(2016)Bulat and Tzimiropoulos]{bulat2016human}
+BULAT~A, TZIMIROPOULOS~G.
+\newblock Human pose estimation via convolutional part heatmap
+  regression[C]//\allowbreak
+ECCV.
+\newblock [S.l.: s.n.], 2016.
+
+\bibitem[Newell et~al.(2016)Newell, Yang, and Deng]{newell2016stacked}
+NEWELL~A, YANG~K, DENG~J.
+\newblock Stacked hourglass networks for human pose estimation[C]//\allowbreak
+European conference on computer vision.
+\newblock [S.l.]: Springer, 2016: 483-499.
+
+\bibitem[Tang et~al.(2018{\natexlab{a}})Tang, Peng, Geng, Wu, Zhang, and
+  Metaxas]{tang2018quantized}
+TANG~Z, PENG~X, GENG~S, et~al.
+\newblock Quantized densely connected u-nets for efficient landmark
+  localization[C]//\allowbreak
+Proceedings of the European Conference on Computer Vision (ECCV).
+\newblock [S.l.: s.n.], 2018{\natexlab{a}}: 339-354.
+
+\bibitem[Ning et~al.(2017)Ning, Zhang, and He]{ning2017knowledge}
+NING~G, ZHANG~Z, HE~Z.
+\newblock Knowledge-guided deep fractal neural networks for human pose
+  estimation[J].
+\newblock IEEE Transactions on Multimedia, 2017, 20\allowbreak (5): 1246-1259.
+
+\bibitem[Luvizon et~al.(2017)Luvizon, Tabia, and
+  Picard]{DBLP:journals/corr/abs-1710-02322}
+LUVIZON~D~C, TABIA~H, PICARD~D.
+\newblock Human pose regression by combining indirect part detection and
+  contextual information[J/OL].
+\newblock CoRR, 2017, abs/1710.02322.
+\newblock \url{http://arxiv.org/abs/1710.02322}.
+
+\bibitem[Chu et~al.(2017)Chu, Yang, Ouyang, Ma, Yuille, and Wang]{chu2017multi}
+CHU~X, YANG~W, OUYANG~W, et~al.
+\newblock Multi-context attention for human pose estimation[C]//\allowbreak
+Proceedings of the IEEE conference on computer vision and pattern recognition.
+\newblock [S.l.: s.n.], 2017: 1831-1840.
+
+\bibitem[Chou et~al.(2017)Chou, Chien, and Chen]{DBLP:journals/corr/ChouCC17}
+CHOU~C, CHIEN~J, CHEN~H.
+\newblock Self adversarial training for human pose estimation[J/OL].
+\newblock CoRR, 2017, abs/1707.02439.
+\newblock \url{http://arxiv.org/abs/1707.02439}.
+
+\bibitem[Chen et~al.(2017)Chen, Shen, Wei, Liu, and Yang]{chen2017adversarial}
+CHEN~Y, SHEN~C, WEI~X~S, et~al.
+\newblock Adversarial posenet: A structure-aware convolutional network for
+  human pose estimation[C]//\allowbreak
+Proceedings of the IEEE International Conference on Computer Vision.
+\newblock [S.l.: s.n.], 2017: 1212-1221.
+
+\bibitem[Yang et~al.(2017)Yang, Li, Ouyang, Li, and Wang]{yang2017learning}
+YANG~W, LI~S, OUYANG~W, et~al.
+\newblock Learning feature pyramids for human pose estimation[C]//\allowbreak
+proceedings of the IEEE international conference on computer vision.
+\newblock [S.l.: s.n.], 2017: 1281-1290.
+
+\bibitem[Ke et~al.(2018)Ke, Chang, Qi, and Lyu]{Ke_2018_ECCV}
+KE~L, CHANG~M~C, QI~H, et~al.
+\newblock Multi-scale structure-aware network for human pose
+  estimation[C]//\allowbreak
+Proceedings of the European Conference on Computer Vision (ECCV).
+\newblock [S.l.: s.n.], 2018.
+
+\bibitem[Tang et~al.(2018{\natexlab{b}})Tang, Yu, and Wu]{Tang_2018_ECCV}
+TANG~W, YU~P, WU~Y.
+\newblock Deeply learned compositional models for human pose
+  estimation[C]//\allowbreak
+Proceedings of the European Conference on Computer Vision (ECCV).
+\newblock [S.l.: s.n.], 2018{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Ouyang, Liu, Qi, Shen, Yang, and
+  Jia]{zhang2019human}
+ZHANG~H, OUYANG~H, LIU~S, et~al.
+\newblock Human pose estimation with spatial contextual information[J].
+\newblock arXiv preprint arXiv:1901.01760, 2019.
+
+\bibitem[Su et~al.(2019)Su, Ye, Zhang, Dai, and Sheng]{su2019cascade}
+SU~Z, YE~M, ZHANG~G, et~al.
+\newblock Cascade feature aggregation for human pose estimation[J].
+\newblock arXiv preprint arXiv:1902.07837, 2019.
+
+\bibitem[Bulat et~al.(2020)Bulat, Kossaifi, Tzimiropoulos, and
+  Pantic]{bulat2020toward}
+BULAT~A, KOSSAIFI~J, TZIMIROPOULOS~G, et~al.
+\newblock Toward fast and accurate human pose estimation via soft-gated skip
+  connections[C]//\allowbreak
+2020 15th IEEE International Conference on Automatic Face and Gesture
+  Recognition (FG 2020).
+\newblock [S.l.]: IEEE, 2020: 8-15.
+
+\bibitem[Pfister et~al.(2015)Pfister, Charles, and
+  Zisserman]{pfister2015flowing}
+PFISTER~T, CHARLES~J, ZISSERMAN~A.
+\newblock Flowing convnets for human pose estimation in videos[C]//\allowbreak
+Proceedings of the IEEE international conference on computer vision.
+\newblock [S.l.: s.n.], 2015: 1913-1921.
+
+\bibitem[Chu et~al.(2016)Chu, Ouyang, Li, and Wang]{chu2016structured}
+CHU~X, OUYANG~W, LI~H, et~al.
+\newblock Structured feature learning for pose estimation[C]//\allowbreak
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.
+\newblock [S.l.: s.n.], 2016: 4715-4723.
+
+\bibitem[Bazarevsky et~al.(2019)Bazarevsky, Kartynnik, Vakunov, Raveendran, and
+  Grundmann]{bazarevsky2019blazeface}
+BAZAREVSKY~V, KARTYNNIK~Y, VAKUNOV~A, et~al.
+\newblock Blazeface: Sub-millisecond neural face detection on mobile gpus[J].
+\newblock arXiv preprint arXiv:1907.05047, 2019.
+
+\bibitem[{Cao} et~al.(2019){Cao}, {Hidalgo Martinez}, {Simon}, {Wei}, and
+  {Sheikh}]{8765346}
+{Cao}~Z, {Hidalgo Martinez}~G, {Simon}~T, et~al.
+\newblock Openpose: Realtime multi-person 2d pose estimation using part
+  affinity fields[J].
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019.
+
+\bibitem[Xu et~al.(2020)Xu, Bazavan, Zanfir, Freeman, Sukthankar, and
+  Sminchisescu]{xu2020ghum}
+XU~H, BAZAVAN~E~G, ZANFIR~A, et~al.
+\newblock Ghum \& ghuml: Generative 3d human shape and articulated pose
+  models[C]//\allowbreak
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition.
+\newblock [S.l.: s.n.], 2020: 6184-6193.
+
+\bibitem[Zanfir et~al.(2020)Zanfir, Bazavan, Xu, Freeman, Sukthankar, and
+  Sminchisescu]{zanfir2020weakly}
+ZANFIR~A, BAZAVAN~E~G, XU~H, et~al.
+\newblock Weakly supervised 3d human pose and shape reconstruction with
+  normalizing flows[C]//\allowbreak
+Computer Vision -- ECCV 2020.
+\newblock [S.l.: s.n.], 2020: 465-481.
+
+\end{thebibliography}

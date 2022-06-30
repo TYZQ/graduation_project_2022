@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: body/chapter01.aux
+A level-1 auxiliary file: body/chapter02.aux
+A level-1 auxiliary file: body/chapter03.aux
+A level-1 auxiliary file: body/chapter04.aux
+A level-1 auxiliary file: back/conclusion.aux
+The style file: gbt7714-numerical.bst
+A level-1 auxiliary file: back/acknowledgements.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: reference.bib
+I was expecting a `,' or a `}'---line 87 of file reference.bib
+ :                
+ :                title = {DeepCut: Joint Subset Partition and Labeling for Multi Person Pose Estimation},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 171 of file reference.bib
+ :                
+ :                title = {DeeperCut:  A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty year in pishchulin16cvpr
+Warning--empty year in pishchulin16cvpr
+Warning--empty year in insafutdinov16ariv
+Warning--empty year in insafutdinov16ariv
+Warning--empty title in pishchulin16cvpr
+Warning--empty booktitle in pishchulin16cvpr
+Warning--empty year in pishchulin16cvpr
+Warning--empty year in pishchulin16cvpr
+Warning--empty title in insafutdinov16ariv
+Warning--empty booktitle in insafutdinov16ariv
+Warning--empty year in insafutdinov16ariv
+Warning--empty year in insafutdinov16ariv
+You've used 37 entries,
+            5246 wiz_defined-function locations,
+            1200 strings with 14652 characters,
+and the built_in function-call counts, 319009 in all, are:
+= -- 6400
+> -- 37359
+< -- 46760
++ -- 12919
+- -- 2472
+* -- 1755
+:= -- 44009
+add.period$ -- 111
+call.type$ -- 37
+change.case$ -- 289
+chr.to.int$ -- 11527
+cite$ -- 49
+duplicate$ -- 903
+empty$ -- 2552
+format.name$ -- 1241
+if$ -- 83174
+int.to.chr$ -- 2
+int.to.str$ -- 38
+missing$ -- 0
+newline$ -- 224
+num.names$ -- 111
+pop$ -- 16990
+preamble$ -- 1
+purify$ -- 37
+quote$ -- 0
+skip$ -- 32963
+stack$ -- 0
+substring$ -- 14577
+swap$ -- 41
+text.length$ -- 684
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 427
+warning$ -- 12
+while$ -- 836
+width$ -- 0
+write$ -- 509
+(There were 2 error messages)
